@@ -1,0 +1,10 @@
+#_*_Makefile _*_
+
+#target: dependencies
+#	action
+
+all: 
+	gcc udp_preforked_server.c -o udp_preforked_server
+
+clean:
+	rm udp_preforked_server
